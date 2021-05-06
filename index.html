@@ -12,44 +12,52 @@
 </head>
 
 <body class="relative" style="background-color: #FCFCFC;">
+
+    <!-- background shapes -->
     <div class="z-10">
         <img src="img/bg-1.png" alt="forme violette" class="absolute right-0 h-screen z-10">
     </div>
     <div class="z-10">
-        <img src="img/bg-2.png" alt="forme violette" class="absolute left-0 h-screen z-10" style="top: 110vh;">
+        <img src="img/bg-2.png" alt="forme violette" class="absolute left-0 h-screen z-10" style="top: 110vh; z-index: -10;">
+    </div>
+    <div class="z-10">
+        <img src="img/bg-3.png" alt="forme violette" class="absolute right-0 h-screen z-10" style="top: 210vh; z-index: -10;">
     </div>
 
 
     <div id="container" class="max-w-screen-xl mx-auto z-50">
-        <div id="full_page_intro" class=" h-screen flex flex-col">
-            <nav class="flex justify-between ">
-                <h2 class=" text-xl font-bold p-5">B<br/>V</h2>
-                <ul class="flex justify-bewteen my-auto w-xl z-50">
-                    <a href="#">
-                        <li class="mx-10 py-1">Compétences</li>
-                    </a>
-                    <li class="mx-10 py-1"><a href="#">Projets</a></li>
-                    <li class="mx-5 px-5 py-1 border border-black rounded-full"><a href="#">Contact</a></li>
-                </ul>
+        <!-- INTRODUCTION -->
+        <section class="intro">
+            <div id="full_page_intro" class=" h-screen flex flex-col">
+                <nav class="flex justify-between ">
+                    <h2 class=" text-xl font-bold p-5">B<br/>V</h2>
+                    <ul class="flex justify-bewteen my-auto w-xl z-50">
+                        <a href="#">
+                            <li class="mx-10 py-1">Compétences</li>
+                        </a>
+                        <li class="mx-10 py-1"><a href="#">Projets</a></li>
+                        <li class="mx-5 px-5 py-1 border border-black rounded-full transition duration-150 ease-in-out"><a href="#">Contact</a></li>
+                    </ul>
 
-            </nav>
+                </nav>
 
-            <div id="hero_banner" class="flex justify-around my-auto">
-                <div id="hero_text" class="w-1/2 my-auto">
-                    <h1 id="nom" class="text-4xl font-bold my-10">Benjamin Vuagnoux</h1>
-                    <p class="my-10 mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorem in nam eaque dolores obcaecati. Consequuntur molestias voluptatibus earum, minima nisi adipisci possimus cupiditate totam, doloremque iure cumque, omnis reprehenderit
-                        amet reiciendis inventore eos aspernatur? Rem, laborum! Non, libero voluptatibus veniam nostrum sit placeat, ut praesentium iure, omnis suscipit reprehenderit!</p>
-                    <a href="#" class=" bg-gray-100	text-lg rounded-full py-5 px-14 text-white" style="background-color:#261579;">Me contacter</a>
+                <div id="hero_banner" class="flex justify-around my-auto">
+                    <div id="hero_text" class="w-1/2 my-auto">
+                        <h1 id="nom" class="text-4xl font-bold my-10">Benjamin Vuagnoux</h1>
+                        <p class="my-10 mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorem in nam eaque dolores obcaecati. Consequuntur molestias voluptatibus earum, minima nisi adipisci possimus cupiditate totam, doloremque iure cumque, omnis reprehenderit
+                            amet reiciendis inventore eos aspernatur? Rem, laborum! Non, libero voluptatibus veniam nostrum sit placeat, ut praesentium iure, omnis suscipit reprehenderit!</p>
+                        <a href="#" class=" bg-gray-100	text-lg rounded-full py-5 px-14 text-white" style="background-color:#261579;">Me contacter</a>
+                    </div>
+                    <img src="img/Avatar-BVsJOURNAL-02 1.png" alt="Avatar illustré de Benjamin Vuagnoux" class="w-80 z-50">
                 </div>
-                <img src="img/Avatar-BVsJOURNAL-02 1.png" alt="Avatar illustré de Benjamin Vuagnoux" class="w-80 z-50">
             </div>
-        </div>
+        </section>
 
+        <!-- PROFESSIONAL COMPETENCES -->
         <section id="pro_comp" class="min-h-screen z-50">
             <div class="flex space-around">
                 <h2 class="text-4xl font-bold py-10 mx-auto">Compétences professionnelles</h1>
             </div>
-
             <div id="row" class="flex justify-around py-5 z-50">
                 <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50">
                     <img src="img/comp_front.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
@@ -67,7 +75,6 @@
                     <p class="h-40 mx-2 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
                 </div>
             </div>
-
             <div id="row" class="flex justify-around py-5">
                 <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50">
                     <img src="img/logiciel.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
@@ -87,58 +94,26 @@
             </div>
         </section>
 
+        <!-- PROFESSIONNAL EXPERIENCE -->
         <section id="exp_pro" class="min-h-screen z-50">
             <div class="flex space-around">
                 <h2 class="text-4xl font-bold py-10 mx-auto">Expérience professionnelle</h1>
             </div>
 
-            <!-- premiere boite d'experience -->
+            <!-- First EXPERIENCE BOX -->
             <div class="bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 w-4/5 mx-auto ">
-                <div class="preview">
+                <div class="preview z-50">
                     <div class="flex justify-between mx-5">
-                        <h3 class="text-xl font-bold">Consultant chef de projet Developpement web </h3>
-                        <p style="color:#8177A6">Nov 2018 - Nov 2019</p>
+                        <h3 class="text-xl font-bold">Consultant chef de projet Developpement web</h3>
+                        <p style="color:#8177A6">févr. 2020 – déc. 2020 (1 an)</p>
                     </div>
                     <p class="text-lg mx-5 my-2">TALAN SOLUTIONS, Amiens, France</p>
-                    <hr class="w-4/5 mx-auto">
+                    <hr class="w-4/5 mx-auto my-5">
                 </div>
                 <div class="hidden">
                     <div class="m-5">
-                        <h4 class="text- font-bold">Audencia Business School - Tierce maintenance applicative & évolutive</h4>
-                        <p class="ml-10 mt-2">Gestion de projet, chiffrages, pilotages et animation de réunions interne et externes.</p>
-                    </div>
-                    <div class="m-5">
-                        <h4 class="text- font-bold">Audencia Business School - Tierce maintenance applicative & évolutive</h4>
-                        <p class="ml-10 mt-2">Gestion de projet, chiffrages, pilotages et animation de réunions interne et externes.</p>
-                    </div>
-                    <div class="m-5">
-                        <h4 class="text- font-bold">Audencia Business School - Tierce maintenance applicative & évolutive</h4>
-                        <p class="ml-10 mt-2">Gestion de projet, chiffrages, pilotages et animation de réunions interne et externes.</p>
-                    </div>
-                    <div class="m-5">
-                        <h4 class="text- font-bold">Audencia Business School - Tierce maintenance applicative & évolutive</h4>
-                        <p class="ml-10 mt-2">Gestion de projet, chiffrages, pilotages et animation de réunions interne et externes.</p>
-                    </div>
-                </div>
-                <div>
-                    <img class="mx-auto mt-5" src="img/arrow.png" alt="clickez ici pour afficher plus de détails sur l'experience professionnelle">
-                </div>
-            </div>
-
-            <!-- deuxieme boite d'experience -->
-            <div class="bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 w-4/5 mx-auto ">
-                <div class="preview">
-                    <div class="flex justify-between mx-5">
-                        <h3 class="text-xl font-bold">Consultant chef de projet Developpement web</h3>
-                        <p style="color:#8177A6">Nov 2018 - Nov 2019</p>
-                    </div>
-                    <p class="text-lg mx-5 my-2">TALAN SOLUTIONS, Amiens, France</p>
-                    <hr class="w-4/5 mx-auto">
-                </div>
-                <div class="">
-                    <div class="m-5">
                         <div class="flex justify-between">
-                            <h4 class=" font-bold">Audencia Business School</h4>
+                            <h4 class="font-bold">Audencia Business School</h4>
                             <p class="text-xs" style="color:#8177A6">avr. 2020 – déc. 2020 (9 mois)</p>
                         </div>
                         <p class="ml-10 mt-2">Gestion de projet : TMA (tierce maintenance applicative).</p>
@@ -170,31 +145,93 @@
                         <p class="ml-10 mt-2">Gestion de projet : Evolution du système d'articles et d'actualités</p>
                         <p class="ml-10 mt-2">Conseil SEO : Formation à la rédaction et à la contribution de contenu optimisés pour le SEO.</p>
                     </div>
-
                 </div>
-                <div>
+                <div class="arrow-btn">
                     <img class="mx-auto mt-5" src="img/arrow.png" alt="clickez ici pour afficher plus de détails sur l'experience professionnelle">
                 </div>
             </div>
 
+            <!-- Second EXPERIENCE BOX -->
+            <div class="bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 mt-10 w-4/5 mx-auto ">
+                <div class="preview">
+                    <div class="flex justify-between mx-5">
+                        <h3 class="text-xl font-bold">Chef de projet Rédaction WEB SEO</h3>
+                        <p style="color:#8177A6">nov. 2018 - nov. 2019 (1 an 1 mois)</p>
+                    </div>
+                    <p class="text-lg mx-5 my-2">Agence web OneHour.Business, télétravail</p>
+                    <hr class="w-4/5 mx-auto my-5">
+                </div>
+                <div class="hidden">
+                    <div class="m-5">
+                        <div class="flex justify-between">
+                            <h4 class=" font-bold">Management : </h4>
+                        </div>
+                        <p class="ml-10 mt-2">Management d’une équipe de 20 rédacteur et 1 développeur.</p>
+                        <p class="ml-10 mt-2">Recrutement et formation des rédacteurs tous domaines confondus.</p>
+                        <p class="ml-10 mt-2">Relation client : conseil, devis et négociation.</p>
+                    </div>
+                    <div class="m-5">
+                        <div class="flex justify-between">
+                            <h4 class=" font-bold">Redaction SEO : </h4>
+                        </div>
+                        <p class="ml-10 mt-2">Optimisation SEO On-Site (de l'existant).</p>
+                        <p class="ml-10 mt-2">Elaboration des stratégies de rédaction de contenu.</p>
+                        <p class="ml-10 mt-2">Intégration et suivi des textes optimisés SEO.</p>
+                    </div>
+                </div>
+                <div class="arrow-btn">
+                    <img class="mx-auto mt-5" src="img/arrow.png" alt="clickez ici pour afficher plus de détails sur l'experience professionnelle">
+                </div>
+            </div>
 
+            <!-- Third EXPERIENCE BOX -->
+            <div class="bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 mt-10 w-4/5 mx-auto ">
+                <div class="preview">
+                    <div class="flex justify-between mx-5">
+                        <h3 class="text-xl font-bold">Rédacteur WEB SEO (stagiaire)</h3>
+                        <p style="color:#8177A6">juin 2018 - nov. 2019 (6 mois)</p>
+                    </div>
+                    <p class="text-lg mx-5 my-2">Elitz, rédacteur web freelance, télétravail</p>
+                    <hr class="w-4/5 mx-auto my-5">
+                </div>
+                <div class="hidden">
+                    <div class="m-5">
+                        <div class="flex justify-between">
+                            <h4 class=" font-bold">Rédaction : </h4>
+                        </div>
+                        <p class="ml-10 mt-2">Rédaction de fiches produits optimisées SEO pour particuliers.</p>
+                        <p class="ml-10 mt-2">Rédaction d'articles de blog optimisées SEO.</p>
+                        <p class="ml-10 mt-2">Optimisation SEO On-Site.</p>
+                    </div>
+                </div>
+                <div class="arrow-btn">
+                    <img class="mx-auto mt-5" src="img/arrow.png" alt="clickez ici pour afficher plus de détails sur l'experience professionnelle">
+                </div>
+            </div>
+        </section>
 
+        <!-- FORMATION -->
+        <section id="formation">
 
         </section>
 
+        <!-- PROJECTS -->
         <section id="project">
 
         </section>
-        <section id="project">
 
-        </section>
-
+        <!-- CONTACT FORM -->
         <section id="contact">
             <form action="#">
 
             </form>
         </section>
     </div>
+
+
+    <!-- JS & JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script-jquery.js"></script>
 </body>
 
 </html>
