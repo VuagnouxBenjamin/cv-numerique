@@ -27,14 +27,7 @@
         <img src="img/bg-4.png" alt="forme violette" class="absolute left-0 h-screen z-10" style="top: 310vh; z-index: -10;">
     </div>
     <div class="z-10">
-        <img src="img/bg-3.png" alt="forme violette" class="absolute right-0 h-screen z-10 md:hidden" style="top: 470vh; z-index: -10;">
-    </div>
-    <!-- for mobile only -->
-    <div class="z-10">
-        <img src="img/bg-4.png" alt="forme violette" class="absolute left-0 h-screen z-10 sm:hidden" style="top: 610vh; z-index: -10;">
-    </div>
-    <div class="z-10">
-        <img src="img/bg-3.png" alt="forme violette" class="absolute right-0 h-screen z-10 sm:hidden" style="top: 750vh; z-index: -10;">
+        <img src="img/bg-3.png" alt="forme violette" class="absolute right-0 h-screen z-10" style="top: 470vh; z-index: -10;">
     </div>
 
     <div id="container" class="max-w-screen-xl mx-auto z-50">
@@ -44,29 +37,21 @@
                 <nav class="flex justify-between ">
                     <h2 class=" text-xl font-bold p-5">B<br/>V</h2>
                     <ul class="flex justify-bewteen my-auto w-xl z-50">
-                        <a href="#pro_comp">
-                            <li class="py-1 ml-4 hidden md:block">Compétences</li>
+                        <a href="#">
+                            <li class="mx-10 py-1 hidden sm:block">Compétences</li>
                         </a>
-                        <a href="#exp_pro">
-                            <li class="py-1 ml-4 hidden md:block">Expérience</li>
-                        </a>
-                        <a href="#formation">
-                            <li class="py-1 ml-4 hidden md:block">Formation</li>
-                        </a>
-                        <a href="#project">
-                            <li class="py-1 ml-4 hidden md:block">Projets</li>
-                        </a>
-                        <li class="mx-5 px-5 py-1 border border-black rounded-full transition duration-150 ease-in-out"><a href="#contact">Contact</a></li>
+                        <li class="mx-10 py-1 hidden sm:block"><a href="#">Projets</a></li>
+                        <li class="mx-5 px-5 py-1 border border-black rounded-full transition duration-150 ease-in-out"><a href="#">Contact</a></li>
                     </ul>
 
                 </nav>
 
                 <div id="hero_banner" class="flex justify-around mx-auto my-auto ">
-                    <div id="hero_text" class=" my-auto w-3/4 sm:w-1/2">
-                        <h1 id="nom" class="text-4xl font-bold my-10 mt-0">Benjamin Vuagnoux</h1>
+                    <div id="hero_text" class="w-1/2 my-auto">
+                        <h1 id="nom" class="text-4xl font-bold my-10">Benjamin Vuagnoux</h1>
                         <p class="my-10 mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorem in nam eaque dolores obcaecati. Consequuntur molestias voluptatibus earum, minima nisi adipisci possimus cupiditate totam, doloremque iure cumque, omnis reprehenderit
                             amet reiciendis inventore eos aspernatur? Rem, laborum! Non, libero voluptatibus veniam nostrum sit placeat, ut praesentium iure, omnis suscipit reprehenderit!</p>
-                        <a href="#contact" class=" bg-gray-100	text-lg rounded-full py-5 px-14 text-white" style="background-color:#261579;">Me contacter</a>
+                        <a href="#" class=" bg-gray-100	text-lg rounded-full py-5 px-14 text-white" style="background-color:#261579;">Me contacter</a>
                     </div>
                     <img src="img/Avatar-BVsJOURNAL-02 1.png" alt="Avatar illustré de Benjamin Vuagnoux" class="w-80 z-50 hidden sm:block">
                 </div>
@@ -75,62 +60,64 @@
 
         <!-- PROFESSIONAL COMPETENCES -->
         <section id="pro_comp" class="min-h-screen z-50">
-            <div class="text-center">
+            <div class="flex space-around">
                 <h2 class="text-4xl font-bold py-10 mx-auto">Compétences professionnelles</h1>
             </div>
-            <div id="row" class="flex justify-around py-5 z-50 flex-wrap">
-                <div class="h-96 w-64 bg-white rounded-lg hover:shadow-lg mx-16 my-5 border">
-                    <img src="img/comp_front.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8">
+            <div id="row" class="flex justify-around py-5 z-50">
+                <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50">
+                    <img src="img/comp_front.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
                     <h3 class="text-xl text-center mt-5 font-bold">Développement <br/> Front-End</h3>
-                    <p class="h-40 mx-2 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
+                    <p class="h-40 mx-2 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
                 </div>
-                <div class="h-96 w-64 bg-white rounded-lg hover:shadow-lg mx-16 my-5 border ">
-                    <img src="img/beck_end.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8">
+                <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50">
+                    <img src="img/beck_end.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
                     <h3 class="text-xl text-center mt-5 font-bold">Développement <br/> Front-End</h3>
-                    <p class="h-40 mx-2 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
+                    <p class="h-40 mx-2 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
                 </div>
-                <div class="h-96 w-64 bg-white rounded-lg hover:shadow-lg mx-16 my-5 border ">
-                    <img src="img/appli.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8">
+                <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50">
+                    <img src="img/appli.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
                     <h3 class="text-xl text-center mt-5 font-bold">Développement <br/> Front-End</h3>
-                    <p class="h-40 mx-2 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
+                    <p class="h-40 mx-2 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
                 </div>
-                <div class="h-96 w-64 bg-white rounded-lg hover:shadow-lg mx-16 my-5 border ">
-                    <img src="img/logiciel.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8">
+            </div>
+            <div id="row" class="flex justify-around py-5">
+                <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50">
+                    <img src="img/logiciel.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
                     <h3 class="text-xl text-center mt-5 font-bold">Développement <br/> Front-End</h3>
-                    <p class="h-40 mx-2 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
+                    <p class="h-40 mx-2 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
                 </div>
-                <div class="h-96 w-64 bg-white rounded-lg hover:shadow-lg mx-16 my-5 border">
-                    <img src="img/android.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8">
+                <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50 -top-24">
+                    <img src="img/android.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
                     <h3 class="text-xl text-center mt-5 font-bold">Développement <br/> Front-End</h3>
-                    <p class="h-40 mx-2 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
+                    <p class="h-40 mx-2 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
                 </div>
-                <div class="h-96 w-64 bg-white rounded-lg hover:shadow-lg mx-16 my-5 border ">
-                    <img src="img/gestion.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8">
+                <div class="h-96 w-56 bg-white rounded-lg hover:shadow-lg z-50">
+                    <img src="img/gestion.png" alt="Illustration developpement front end" class="h-32 mx-auto pt-8 ">
                     <h3 class="text-xl text-center mt-5 font-bold">Développement <br/> Front-End</h3>
-                    <p class="h-40 mx-2 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
+                    <p class="h-40 mx-2 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem inventore quos corrupti? Quas, quod!</p>
                 </div>
             </div>
         </section>
 
         <!-- PROFESSIONNAL EXPERIENCE -->
-        <section id="exp_pro" class="min-h-3/4 z-50  mt-10">
-            <div class="text-center">
+        <section id="exp_pro" class="min-h-screen z-50">
+            <div class="flex space-around">
                 <h2 class="text-4xl font-bold py-10 mx-auto">Expérience professionnelle</h1>
             </div>
 
             <!-- First EXPERIENCE BOX -->
-            <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 w-4/5 mx-auto border">
+            <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 w-4/5 mx-auto ">
                 <div class="preview z-50">
-                    <div class="block justify-between sm:flex mx-5">
+                    <div class="flex justify-between mx-5">
                         <h3 class="text-xl font-bold">Consultant chef de projet Developpement web</h3>
-                        <p class="mt-2 sm:mt-0" style="color:#8177A6">févr. 2020 – déc. 2020 (1 an)</p>
+                        <p style="color:#8177A6">févr. 2020 – déc. 2020 (1 an)</p>
                     </div>
                     <p class="text-lg mx-5 mt-2 mb-5">TALAN SOLUTIONS, Amiens, France</p>
                     <hr class="w-4/5 mx-auto">
                 </div>
                 <div class="hidden" style="overflow: hidden">
                     <div class="m-5">
-                        <div class="block justify-between sm:flex">
+                        <div class="flex justify-between">
                             <h4 class="font-bold">Audencia Business School</h4>
                             <p class="text-xs" style="color:#8177A6">avr. 2020 – déc. 2020 (9 mois)</p>
                         </div>
@@ -139,7 +126,7 @@
                         <p class="ml-10 mt-2">Gestion de projet : Mise en place CDN pour la Préparation annuelle à la remise des résultats.</p>
                     </div>
                     <div class="m-5">
-                        <div class="block justify-between sm:flex">
+                        <div class="flex justify-between">
                             <h4 class=" font-bold">Keolis Web Passenger</h4>
                             <p class="text-xs" style="color:#8177A6">mai 2020 – déc. 2020 (8 mois)</p>
                         </div>
@@ -148,14 +135,14 @@
                         <p class="ml-10 mt-2">Gestion de projet : Évolution du système de recherche de son itinéraire, horaires et de l'infotrafic.</p>
                     </div>
                     <div class="m-5">
-                        <div class="block justify-between sm:flex">
+                        <div class="flex justify-between">
                             <h4 class=" font-bold">Université de l'île de la Réunion</h4>
                             <p class="text-xs" style="color:#8177A6">mars 2020 – déc. 2020 (10 mois)</p>
                         </div>
                         <p class="ml-10 mt-2">Gestion de projet : TMA (tierce maintenance applicative).</p>
                     </div>
                     <div class="m-5">
-                        <div class="block justify-between sm:flex">
+                        <div class="flex justify-between">
                             <h4 class=" font-bold">Talan SAS</h4>
                             <p class="text-xs" style="color:#8177A6">juin 2020 – déc. 2020 (7 mois)</p>
                         </div>
@@ -170,11 +157,11 @@
             </div>
 
             <!-- Second EXPERIENCE BOX -->
-            <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 mt-10 w-4/5 mx-auto border">
+            <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 mt-10 w-4/5 mx-auto ">
                 <div class="preview">
-                    <div class="block justify-between sm:flex mx-5">
+                    <div class="flex justify-between mx-5">
                         <h3 class="text-xl font-bold">Chef de projet Rédaction WEB SEO</h3>
-                        <p class="mt-2 sm:mt-0" style="color:#8177A6">nov. 2018 - nov. 2019 (1 an 1 mois)</p>
+                        <p style="color:#8177A6">nov. 2018 - nov. 2019 (1 an 1 mois)</p>
                     </div>
                     <p class="text-lg mx-5 mt-2 mb-5">Agence web OneHour.Business, télétravail</p>
                     <hr class="w-4/5 mx-auto">
@@ -203,11 +190,11 @@
             </div>
 
             <!-- Third EXPERIENCE BOX -->
-            <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 mt-10 w-4/5 mx-auto border">
+            <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 mt-10 w-4/5 mx-auto ">
                 <div class="preview">
-                    <div class="block justify-between sm:flex mx-5">
+                    <div class="flex justify-between mx-5">
                         <h3 class="text-xl font-bold">Rédacteur WEB SEO (stagiaire)</h3>
-                        <p class="mt-2 sm:mt-0" style="color:#8177A6">juin 2018 - nov. 2019 (6 mois)</p>
+                        <p style="color:#8177A6">juin 2018 - nov. 2019 (6 mois)</p>
                     </div>
                     <p class="text-lg mx-5 mt-2 mb-5">Elitz, rédacteur web freelance, télétravail</p>
                     <hr class="w-4/5 mx-auto">
@@ -228,18 +215,17 @@
             </div>
         </section>
 
-
         <!-- FORMATION -->
-        <section id="formation" class="min-h-3/4  mt-20">
+        <section id="formation" class="min-h-screen">
             <div class="my-auto">
-                <div class="text-center">
+                <div class="flex space-around">
                     <h2 class="text-4xl font-bold py-10 mx-auto">Parcours de formation</h1>
                 </div>
 
                 <!-- First FORMATION BOX -->
-                <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 w-4/5 mx-auto border">
+                <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-5 my-5 w-4/5 mx-auto ">
                     <div class="preview z-50">
-                        <div class="block justify-between sm:flex mx-5">
+                        <div class="flex justify-between mx-5">
                             <h3 class="text-xl font-bold">Concepteur développeur d’applications</h3>
                             <p style="color:#8177A6">févr. 2021 – Févr. 2022 (En cours)</p>
                         </div>
@@ -291,9 +277,9 @@
                 </div>
 
                 <!-- second FORMATION BOX -->
-                <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-10 my-5 w-4/5 mx-auto border">
+                <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-10 my-5 w-4/5 mx-auto ">
                     <div class="preview z-50">
-                        <div class="block justify-between sm:flex mx-5">
+                        <div class="flex justify-between mx-5">
                             <h3 class="text-xl font-bold">Licence Langues étrangères appliquées au commerce international</h3>
                             <p style="color:#8177A6">sép. 2015 – avril. 2018 (3 Ans)</p>
                         </div>
@@ -302,9 +288,9 @@
                 </div>
 
                 <!-- third FORMATION BOX -->
-                <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-10 my-5 w-4/5 mx-auto border">
+                <div class="exp-box bg-white rounded-lg hover:shadow-lg z-50 py-10 my-5 w-4/5 mx-auto ">
                     <div class="preview z-50">
-                        <div class="block justify-between sm:flex mx-5">
+                        <div class="flex justify-between mx-5">
                             <h3 class="text-xl font-bold">Baccalaureat Scientifique</h3>
                             <p style="color:#8177A6">2014</p>
                         </div>
@@ -315,17 +301,17 @@
         </section>
 
         <!-- PROJECTS -->
-        <section id="project" class="min-h-3/4 mt-20">
+        <section id="project" class="min-h-screen">
             <div class="flex space-around">
                 <h2 class="text-4xl font-bold py-10 mx-auto">Derniers projets</h1>
             </div>
 
             <!-- First PROJECT -->
-            <div class="flex my-10 flex-col items-center lg:flex-row lg:justify-around">
-                <div class="thumbnail w-10/12 mb-5  lg:w-6/12" style="">
+            <div class="flex justify-around my-10">
+                <div class="thumbnail" style="width: 40%;">
                     <img src="img/thumb.png" alt="Illustration de la page principale du projet">
                 </div>
-                <div class="description my-auto w-10/12 lg:w-5/12" style="">
+                <div class="description my-auto" style="width: 50%;">
                     <h3 class="text-2xl font-bold mb-5">Jarditou</h3>
                     <p class="my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dicta laborum reiciendis soluta officia voluptas repellendus veniam minima quam, est corrupti expedita totam hic error laboriosam minus aperiam facere dolores.</p>
                     <button class=" bg-gray-100	text-lg rounded-full py-3 px-14 text-white" style="background-color:#261579;">Voir le code</button>
@@ -333,35 +319,36 @@
             </div>
 
             <!-- Second PROJECT -->
-            <div class="flex my-10 flex-col items-center lg:flex-row lg:justify-around">
-                <div class="thumbnail w-10/12 mb-5  lg:w-6/12">
+            <div class="flex justify-around my-10">
+                <div class="thumbnail" style="width: 40%;">
                     <img src="img/thumb.png" alt="Illustration de la page principale du projet">
                 </div>
-                <div class="description my-auto w-10/12 lg:w-5/12">
+                <div class="description my-auto" style="width: 50%;">
                     <h3 class="text-2xl font-bold mb-5">Jarditou</h3>
                     <p class="my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dicta laborum reiciendis soluta officia voluptas repellendus veniam minima quam, est corrupti expedita totam hic error laboriosam minus aperiam facere dolores.</p>
                     <button class=" bg-gray-100	text-lg rounded-full py-3 px-14 text-white" style="background-color:#261579;">Voir le code</button>
                 </div>
             </div>
+
         </section>
 
         <!-- CONTACT FORM -->
-        <section id="contact" class="min-h-3/4 mt-20 mb-10">
+        <section id="contact" class="min-h-3/4">
 
-            <div class="text-center">
+            <div class="flex space-around">
                 <h2 class="text-4xl font-bold py-10 mx-auto">Entrons en contact</h1>
             </div>
 
             <div class="flex justify-center">
                 <form action="#" class="">
                     <label for="email">Votre adresse e-mail :</label><br>
-                    <input class="w-80 h-8 border rounded-lg my-2 md:w-96" type="text" id="email" name="email"><br>
+                    <input class="w-96 h-8 border rounded-lg my-2" type="text" id="email" name="email"><br>
 
                     <label for="mail_object">Objet du mail :</label><br>
-                    <input class="w-80 h-8 border rounded-lg my-2 md:w-96" type="text" id="mail_object" name="mail_object">
+                    <input class="w-96 h-8 border rounded-lg my-2" type="text" id="mail_object" name="mail_object">
 
                     <p for="story">Message :</p>
-                    <textarea class="w-80 border rounded-lg my-2 md:w-96" id="story" name="story" rows="10">
+                    <textarea class="w-96 border rounded-lg my-2" id="story" name="story" rows="10" cols="33">
                     </textarea><br>
 
                     <button type="submit" class=" bg-gray-100 text-lg rounded-full py-3 px-14 text-white" style="background-color:#261579;">Envoyer</button>
@@ -369,8 +356,9 @@
             </div>
 
         </section>
-
     </div>
+
+
     <!-- JS & JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script-jquery.js"></script>
